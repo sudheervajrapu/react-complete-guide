@@ -22,7 +22,7 @@ In this section, revised the concepts in `JavaScript` (before diving into `React
 - `reference` and `primitive types`
 - `array` functions
 
-## section-03: React Basics & Working with components
+## section-03: React Basics & Working with Components
 
 In this section, concepts learnt:
 
@@ -37,3 +37,24 @@ In this section, concepts learnt:
 - splitting components into multiple smaller components
 - `Composition` (_children props_)
 - organizing the component files
+
+## section-04: React State & Working with Events
+
+In this section, concepts learnt:
+
+- listening to `event`s and working with `event` handlers
+- how component functions are executed
+- working with `state`
+- a closer look at the `useState` hook
+- multiple ways to update the `state`
+- adding `form` inputs
+- listening to `user input` on the form
+- working with multiple `state`s
+- using one state instead (what's better)
+- updating `state` based on `previous state`
+- handling form submission
+- adding `two-way binding`
+- `child-to-parent` communication (_bottom-up_)
+- `lifting the state up`
+- `controlled` vs `uncontrolled` components
+- `stateless` vs `stateful` components
