@@ -1,5 +1,6 @@
-import Expenses from "./components/Expenses/Expenses";
 import Card from "./components/UI/Card";
+import NewExpense from "./components/NewExpense/NewExpense";
+import Expenses from "./components/Expenses/Expenses";
 import "./App.css";
 
 const App = () => {
@@ -29,10 +30,16 @@ const App = () => {
       date: new Date(2020, 12, 14),
     },
   ];
+  const addExpenseDataHandler = (expense) => {
+    expenses.push(expense);
+    console.log(expense);
+  };
+
   return (
     <Card className="App">
       <header className="App-header">
         <h3>Expense Tracker</h3>
+        <NewExpense onAddExpenseData={addExpenseDataHandler} />
         <Expenses items={expenses} />
         <a
           className="App-link"
